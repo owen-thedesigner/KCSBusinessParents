@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="icon" href="img/real-logo.png" type="image/png">
+
+  <title>KCS Business Parents</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <nav class="navbar">
+
+    <a href="#home" class="logo">
+      <img
+        src="logo.png"
+        alt="Keswick Connections"
+        class="main-logo"
+      />
+    </a>
+
+    <div class="nav-links">
+      <a href="#businesses">Businesses</a>
+      <a href="#join" class="nav-button">Membership</a>
+    </div>
+
+    <button class="mobile-menu" id="mobileMenu">
+      ☰
+    </button>
+
+  </nav>
+
+
+  <!-- =========================
+       MOBILE NAV
+  ========================== -->
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#businesses">Businesses</a>
+    <a href="#join">Membership</a>
+  </div>
+
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-school-image">
+      <img
+        src="real-logo.jpg"
+        alt="Keswick Christian School"
+      />
+    </div>
+
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        KESWICK CHRISTIAN SCHOOL COMMUNITY
+      </div>
+
+      <h1>
+        Discover Businesses.<br />
+        <span>Support Keswick Families.</span>
+      </h1>
+
+      <p>
+        KCS Business Parents is a network of businesses
+        owned and operated by members of the KCS community.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#businesses" class="primary-button">
+          Explore Businesses
+          <span>↓</span>
+        </a>
+
+        <a href="#join" class="secondary-button">
+          Membership Requirements
+        </a>
+
+      </div>
+
+      <div class="hero-stats">
+
+        <div class="stat">
+          <strong>LOCAL</strong>
+          <span>Businesses</span>
+        </div>
+
+        <div class="stat-line"></div>
+
+        <div class="stat">
+          <strong>KCS</strong>
+          <span>Community</span>
+        </div>
+
+        <div class="stat-line"></div>
+
+        <div class="stat">
+          <strong>ONE</strong>
+          <span>Connection</span>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+      <span>SCROLL TO EXPLORE</span>
+      <div class="scroll-line"></div>
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       BUSINESS DIRECTORY
+  ========================== -->
+
+  <section class="businesses-section" id="businesses">
+
+    <div class="section-container">
+
+      <div class="businesses-heading">
+
+        <div>
+          <span class="eyebrow">THE DIRECTORY</span>
+
+          <h2>KCS Family Businesses</h2>
+
+          <p>
+            Discover businesses owned and operated by members
+            of the Keswick community.
+          </p>
+        </div>
+
+        <div class="business-count">
+          <span id="businessCount">7</span>
+          <small>BUSINESSES</small>
+        </div>
+
+      </div>
+
+
+      <!-- =========================
+           SEARCH BAR
+      ========================== -->
+
+      <div class="business-search">
+
+        <span class="search-icon">⌕</span>
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for a business..."
+          autocomplete="off"
+        />
+
+        <button id="clearSearch" type="button">
+          Clear
+        </button>
+
+      </div>
+
+
+      <!-- =========================
+           HORIZONTAL BUSINESS LIST
+      ========================== -->
+
+      <div class="business-scroll-wrapper">
+
+        <div class="businesses-grid" id="businessGrid">
+
+
+          <!-- BUSINESS 1 -->
+
+          <article
+            class="business-card"
+            data-name="Southeast Builders Wholesale"
+          >
+
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="Southeast builders wholesale.png" alt="Southeast builders wholesale"></strong>
+                <span>Danny Hartley</span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                Building materials 
+              </span>
+
+              <h3>Southeast builders wholesale</h3>
+
+              <p>Number: 727-365-4452<br />Email: Sales@southeastbuilderswholesale.com</p>
+
+            </div>
+
+          </article>
+
+
+          <!-- BUSINESS 2 -->
+
+          <article
+            class="business-card"
+            data-name="Prudential Financial"
+          >
+
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="Prudential Financial.png" alt="Prudential Financial"></strong>
+                <span>Aaron Middleton</span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                Financial
+              </span>
+
+              <h3>Prudential Financial</h3>
+
+              <p>
+                Number: 7272126080<br />
+                Email: aaron.middleton@prudential.com
+              </p>
+
+            
+
+            </div>
+
+          </article>
+
+
+          <!-- BUSINESS 3 -->
+
+          <article
+            class="business-card"
+            data-name="Finding Peace in the Present Moment"
+          >
+
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="Coastal Stone Therapy Business Card.png" alt=""></strong>
+                <span>Katie Dougherty </span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                Therapy
+              </span>
+
+              <h3>Finding Peace in the Present Moment</h3>
+
+              <p>
+                Number: 414-533-7136<br />
+                Email: Findingpeaceinthepresentmoment@gmail.com
+              </p>
+
+
+
+            </div>
+
+          </article>
+
+
+          <!-- BUSINESS 4 -->
+
+          <article
+            class="business-card"
+            data-name="I NEED A NOTARY LLC"
+          >
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="I NEED A NOTARY LLC.webp" alt="I NEED A NOTARY LLC"></strong>
+                <span>Amanda Loeffler</span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                HEALTH & WELLNESS
+              </span>
+
+              <h3>I NEED A NOTARY LLC</h3>
+
+              <p>
+                Number: 727-435-7865<br />
+                Email: amandaloefflernotary@gmail.com
+              </p>
+
+
+            </div>
+
+          </article>
+
+
+          <!-- BUSINESS 5 -->
+
+          <article
+            class="business-card"
+            data-name="Swept Away Inc"
+          >
+
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="Swept Away Inc.webp" alt="Swept Away Inc"></strong>
+                <span>Michael Pemberton</span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                Chimney service
+              </span>
+
+              <h3>Swept Away Inc</h3>
+
+              <p>
+                Number: 727-596-5946<br />
+                Email: Michael@sweptawaychimney.com
+              </p>
+
+
+            </div>
+
+          </article>
+
+
+          <!-- BUSINESS 6 -->
+
+          <article
+            class="business-card"
+            data-name="Heavenly Plumbing LLC"
+          >
+
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="Heavenly Plumbing LLC.webp" alt="Heavenly Plumbing LLC"></strong>
+                <span>Ivan Petrov</span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                Construction
+              </span>
+
+              <h3>Heavenly Plumbing LLC</h3>
+
+              <p>
+                Number: 727-238-4207<br />
+                Email: ivan@heavenlyplumbing.com
+              </p>
+
+ 
+
+            </div>
+
+          </article>
+
+
+          <!-- BUSINESS 7 -->
+
+          <article
+            class="business-card"
+            data-name="Security National Mortgage"
+          >
+
+            <div class="business-image placeholder-image">
+              <div class="placeholder-content">
+                <div class="placeholder-icon"></div>
+                <strong><img src="Security National Mortgage.webp" alt="Security National Mortgage"></strong>
+                <span>Bretn D'Altilio</span>
+              </div>
+            </div>
+
+            <div class="business-content">
+
+              <span class="business-category">
+                Mortgage
+              </span>
+
+              <h3>Security National Mortgage</h3>
+
+              <p>
+                Number: 865-307-6920<br />
+                Email: brent.daltilio@snmc.com
+              </p>
+
+
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+
+      <div class="scroll-hint">
+        <span>←</span>
+        <span>SCROLL RIGHT TO SEE MORE BUSINESSES</span>
+        <span>→</span>
+      </div>
+
+
+      <div class="no-results" id="noResults">
+
+        <div class="no-results-icon">⌕</div>
+
+        <h3>No businesses found</h3>
+
+        <p>
+          Try searching for a different business.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- =========================
+       MEMBERSHIP
+  ========================== -->
+
+  <section class="join-section" id="join">
+
+    <div class="join-background"></div>
+
+    <div class="join-content">
+      <span class="eyebrow light-eyebrow">
+        KCS BUSINESS PARENTS
+      </span>
+
+      <h2>KCS Business Parents<br /><span>Membership Requirements</span></h2>
+
+      <p class="join-intro">
+        KCS Business Parents is a networking group for parents of students at Keswick
+        Christian School who seek to build meaningful professional relationships,
+        encourage one another through prayer, and support the KCS community.
+      </p>
+
+      <div class="membership-card">
+        <h3>Membership Requirements</h3>
+
+        <ol class="membership-requirements">
+          <li>
+            <strong>KCS Parent</strong>
+            <span>Members must be a parent of a currently enrolled KCS student.</span>
+          </li>
+          <li>
+            <strong>Regular Attendance</strong>
+            <span>Members must attend at least one meeting per month. Meetings are held twice monthly on Wednesdays at 8:30 a.m.</span>
+          </li>
+          <li>
+            <strong>Annual Dues</strong>
+            <span>Annual membership dues are $100. These funds are used primarily to partner with KCS through sponsorships and support of school programs, including KCS Athletics and KCS Fine Arts. A small portion supports the group's website, which maintains business listings for all active members.</span>
+          </li>
+        </ol>
+
+        <div class="membership-status">
+          <h3>Membership Status</h3>
+          <p>Members who do not meet these requirements will have their membership temporarily suspended until the outstanding requirements are fulfilled.</p>
+        </div>
+
+        <div class="membership-contact">
+          <div>
+            <h3>Interested in Joining?</h3>
+            <p>To apply for membership, please contact Brentcdaltilio@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="footer-main">
+
+      <div class="footer-brand">
+
+        <a href="#home" class="footer-school-logo">
+          <img
+            src="logo.png"
+            alt="Keswick Christian School"
+          />
+        </a>
+
+        <p>
+          Connecting the Keswick Christian School community
+          with the businesses that make it special.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <div>
+
+          <h4>EXPLORE</h4>
+
+          <a href="#businesses">Businesses</a>
+          <a href="#home">Back to Top</a>
+
+        </div>
+
+
+        <div>
+
+          <h4>GET INVOLVED</h4>
+
+          <a href="#join">Membership Requirements</a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 KCS Business Parents
+      </span>
+
+<span>
+  made by <a href="https://owen-thedesigner.github.io/Owen-Portfolio/index.html">owen-thedesigner</a>
+</span>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
