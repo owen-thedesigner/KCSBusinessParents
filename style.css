@@ -369,7 +369,6 @@ input {
   display: block;
 }
 
-
 /* =========================
    SCROLL INDICATOR
 ========================= */
@@ -1013,6 +1012,15 @@ footer {
   color: var(--white);
 }
 
+.footer-disclaimer {
+  width: min(1200px, 88%);
+  margin: 0 auto;
+  padding: 0 0 20px;
+  color: #B8C7D7;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
 .footer-bottom {
   width: min(1200px, 88%);
   margin: auto;
@@ -1267,4 +1275,3 @@ input:focus-visible {
   font-size: 13px;
   margin-top: 9px;
 }
-
